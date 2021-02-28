@@ -1,9 +1,20 @@
+# Storm OS
+
+![Storm photo](https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YKXZVKJ37FD6BIQWJU6PBDZCKM.jpg)
 
 
-MAC: 
-docker build buildenv -t my-os-kernel-buildenv  
+## What is Storm OS?
+*This will probably be my pet-project lightweight OS based on own and/or Linux system kernel.*
 
-docker run --rm -it -v $(pwd):/root/env my-os-kernel-buildenv
+#### Prerequirements
+  1. Install [qemu](https://www.qemu.org/)
 
-exit from container
+#### Build on Mac: 
+  1. docker build buildenv -t my-os-kernel-buildenv  
+  2. docker run --rm -it -v $(pwd):/root/env my-os-kernel-buildenv
+  3. exit from container
+  4. qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso  
 
+
+
+## Remember - Hope dies last :v:
