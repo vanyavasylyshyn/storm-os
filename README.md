@@ -5,6 +5,7 @@
 
 ## What is Storm OS?
 *This will probably be my pet-project lightweight OS based on own and/or Linux system kernel.*
+*Code based on [this](https://www.youtube.com/watch?v=FkrpUaGThTQ&list=PLZQftyCk7_SeZRitx5MjBKzTtvk0pHMtp) tutorial*
 
 #### Prerequirements
   1. Install [qemu](https://www.qemu.org/)
