@@ -12,8 +12,9 @@
 #### Build on Mac: 
   1. docker build buildenv -t my-os-kernel-buildenv  
   2. docker run --rm -it -v $(pwd):/root/env my-os-kernel-buildenv
-  3. exit from container
-  4. qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso  
+  3. make build-x86_64
+  4. exit from container
+  5. qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso  
 
 
 
